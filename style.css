@@ -1,0 +1,29 @@
+.column {
+	display: inline-block;
+	width: 75px;
+}
+.cell {
+	width: 75px;
+	height: 75px;
+	background: #864;
+	border: 1px solid white;
+	display: inline-block;
+}
+/*.wonLine {
+	border: 3px solid black;
+}*/
+.red {
+	background: #f55;
+}
+.blue {
+	background: #55f;
+}
+
+.mode {
+	padding: 5px;
+}
+._active_bot .bot,
+._active_twoPlayers .twoPlayers {
+	background: #5a5;
+	color: #fff;
+}
